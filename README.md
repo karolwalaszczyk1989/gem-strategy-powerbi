@@ -107,8 +107,8 @@ The Power BI model follows a simple star schema:
 - *DIM-Ticker* - ticker dimension
 - *tickery_opis* - descriptive metadata (display only)
 Relationships are 1-to-many, single-directional.
-A model diagram is available in:
-[powerbi/model.png](____________________________________________________________________________________)
+A model diagram:
+![data_model](screenshots/data_model.JPG)
 #
 ## Key DAX Logic
 All GEM logic is implemented in **DAX measures and helper columns**, including:
@@ -145,15 +145,18 @@ Screenshots of the report:
 - Asset selection according to GEM
 - Performance comparison
 Available in:
-[screenshots/](_________________________________________________________________________________________)
+[screenshots/](https://github.com/karolwalaszczyk1989/gem-strategy-powerbi/tree/main/screenshots)
 #
-## How to Run Locally
-1. Clone the repository
-2. Run the ETL script:
-   [python etl/stooq_to_parquet.py](_______________________________________________________________)
-3. Open:
-   [powerbi/GEM_public_autorefresh.pbix](_____________________________________________________)
-4. Click **Refresh**
+## How to reproduce the project
+Due to file size limitations, the PBIX file is not included in this repository.
+
+To reproduce the project logic locally:
+1. Run the Python ETL script to generate the Parquet snapshot:
+2. Create a Power BI report using the Parquet file as the data source.
+3. Recreate the data model.
+4. Implement the DAX measures described in dax-key-measures.md.
+5. Validate results against the published Power BI Service report.
+
 #
 ## Design Choices & Limitations
 - Manual monthly refresh instead of scheduled Service refresh
