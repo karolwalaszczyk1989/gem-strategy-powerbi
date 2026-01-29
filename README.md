@@ -1,12 +1,24 @@
-# TL;DR 1-minute overview
+# TL;DR 1-minute overview (EN)
 
-**GEM Momentum Strategy** is a Power BI portfolio project implementing the Global Equity Momentum (GEM) investment strategy using real market data.
+**Global Equity Momentum (GEM) Strategy** is a Power BI portfolio project implementing the Global Equity Momentum (GEM) investment strategy using real market data.
 
 The project addresses a common real-world problem: correctly applying GEM rules (12-month momentum excluding the most recent month, monthly rebalancing, single-asset allocation) without manual calculations or misinterpretation.
 
 Market data is collected daily via a Python ETL script from Stooq, stored as a Parquet snapshot, and analyzed in Power BI. All strategy logic (time windows, reference dates, asset selection) is implemented directly in DAX.
 
 The dashboard is updated manually once per month, aligned with the classic GEM rebalancing schedule. The project focuses on logical correctness, transparent data modeling, and clear end-to-end ownership rather than unnecessary automation.
+
+---
+
+# TL;DR 1-minute overview (EN)
+
+**Global Equity Momentum (GEM) Strategy** to projekt portfolio w Power BI prezentujący implementację strategii inwestycyjnej Global Equity Momentum (GEM) w oparciu o rzeczywiste dane rynkowe.
+
+Projekt rozwiązuje praktyczny problem: poprawne odwzorowanie zasad GEM (momentum 12M z wyłączeniem ostatniego miesiąca, miesięczny rebalancing, jedno aktywo w portfelu) bez ręcznego liczenia i błędów interpretacyjnych.
+
+Dane rynkowe są pobierane codziennie skryptem Python z serwisu Stooq, zapisywane jako snapshot Parquet i analizowane w Power BI. Cała logika strategii (okna czasowe, daty referencyjne, wybór aktywa) została zaimplementowana w DAX.
+
+Dashboard jest aktualizowany ręcznie raz w miesiącu, zgodnie z klasycznym założeniem strategii GEM. Projekt kładzie nacisk na poprawność logiczną, przejrzystość modelu danych oraz pełną kontrolę nad algorytmem decyzyjnym.
 
 ---
 
