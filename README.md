@@ -10,7 +10,7 @@ The dashboard is updated manually once per month, aligned with the classic GEM r
 
 ---
 
-# TL;DR 1-minute overview (EN)
+# TL;DR 1-minute overview (PL)
 
 **Global Equity Momentum (GEM) Strategy** to projekt portfolio w Power BI prezentujący implementację strategii inwestycyjnej Global Equity Momentum (GEM) w oparciu o rzeczywiste dane rynkowe.
 
