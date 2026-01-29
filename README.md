@@ -3,6 +3,12 @@ Power BI report (read-only):
 [View report in Power BI Service](https://app.powerbi.com/groups/me/reports/6b5be0a6-1fcb-4e2d-95e1-883f85de5c7b/f527ac222b674979bb50?experience=power-bi)
 
 ---
+##Dashboard Preview
+![Dashboard Overview](screenshots/dashboard_overview.JPG)
+![Current GEM Asset](screenshots/current_gem_asset.JPG)
+![Current Day](screenshots/current_day_performance_comparison.JPG)
+
+---
 
 # TL;DR 1-minute overview (EN)
 
