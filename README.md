@@ -95,7 +95,7 @@ The Python Script:
 - Optionally inserts data into a MySQL database (private use)
 
 ETL script:
-[etl/stooq_to_parquet.py](                                                                                          )
+[etl/stooq_to_parquet.py](https://github.com/karolwalaszczyk1989/gem-strategy-powerbi/blob/main/etl/stooq_to_parquet.py)
 #
 ## Data Model
 The Power BI model follows a simple star schema:
@@ -121,11 +121,12 @@ Example logic:
 - Dynamic handling of month-end edge cases
 - Separation of Current vs End-of-Month calculations
 Details:
-[docs/dax-key-measures.md](______________________________________________________________________________)
+[docs/dax-key-measures.md](https://github.com/karolwalaszczyk1989/gem-strategy-powerbi/blob/main/docs/dax-key-measures.md)
 #
 ## Refresh & Automation
 Important design decision
 - Market data is collected daily via Python ETL
+  (The Python ETL script downloads daily market data from Stooq and generates a Parquet snapshot used as the fact table in Power BI.)
 - Power BI Desktop uses the Parquet file as its fact table source
 - Power BI Service is not automatically refreshed
 Refresh schedule
@@ -136,8 +137,6 @@ Refresh schedule
 - This schedule is fully aligned with GEM’s monthly rebalancing logic
 This approach avoids unnecessary complexity (gateways, licenses) while remaining fully correct from a strategy perspective.
 
-Detailed steps:
-[docs/refresh-process.md](_________________________________________________________________________________)
 #
 ## Dashboard Preview
 Screenshots of the report:
