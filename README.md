@@ -1,3 +1,9 @@
+## 🔗 Live Dashboard
+Power BI report (read-only):  
+[View report in Power BI Service](https://app.powerbi.com/groups/me/reports/6b5be0a6-1fcb-4e2d-95e1-883f85de5c7b/f527ac222b674979bb50?experience=power-bi)
+
+---
+
 # TL;DR 1-minute overview (EN)
 
 **Global Equity Momentum (GEM) Strategy** is a Power BI portfolio project implementing the Global Equity Momentum (GEM) investment strategy using real market data.
